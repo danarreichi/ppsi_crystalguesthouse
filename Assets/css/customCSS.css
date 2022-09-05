@@ -1,0 +1,169 @@
+:root {
+    --white: #ffffff;
+    --grey: #ededed;
+    --redvelvet: #E12727;
+    --purple: #6052E0;
+    --titleblack: #090909;
+    --darkgrey: #e7e7e7;
+    --lightgrey: #f5f5f5;
+    --greenL: #26D060;
+    --bluebluean: #8A7FEB;
+    --pink: #FF378B;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body {
+    margin: 0 !important;
+}
+
+#formLogin * {
+    margin: 0.5em 0;
+}
+
+#formLogin {
+    position: relative;
+    top: -4em;
+}
+
+
+/* UserProfile */
+
+.userProfile {
+    width: 90%;
+    background-color: var(--white);
+    margin: 2em 0;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+}
+
+.userLogout {
+    color: var(--redvelvet);
+    font-weight: 700;
+}
+
+.userGreet {
+    font-size: 1em
+}
+
+.userName {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+
+/* Menu */
+
+.menuTitle {
+    color: var(--titleblack);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.menuCard {
+    width: 48%;
+    height: 16em;
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 0.5em;
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuCard:hover {
+    cursor: pointer;
+}
+
+.linkTambah,
+.linkEdit,
+.linkHapus,
+.linkCetak {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.linkTambah,
+.linkEdit {
+    color: var(--purple);
+}
+
+.linkHapus {
+    color: var(--redvelvet);
+}
+
+.linkCetak {
+    color: var(--pink)
+}
+
+.smallTitle {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.bigTitle {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--purple)
+}
+
+
+/* Table Custom */
+
+.tableContainerCustom {
+    background-color: var(--lightgrey);
+    border-radius: 0.5em;
+    height: 70vh;
+}
+
+.tableCustom {
+    width: 100%;
+}
+
+.tableCustomContent {
+    width: 95%;
+    background-color: var(--darkgrey);
+    border-radius: 0.25em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    color: inherit;
+}
+
+.trCustom {
+    transition: 0.25s all ease-in-out;
+}
+
+.trCustom:hover {
+    cursor: pointer;
+    transform: scale(1.01)
+}
+
+
+/* Sidebar */
+
+.buttonSidebarSmall {
+    background-color: var(--white);
+    margin: 1em 0 0 0;
+    border-radius: 0.5em;
+    font-weight: 700;
+    padding: 1em 4em;
+    transition: 0.25s all ease-in-out
+}
+
+.buttonSidebarSmall:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.sidebarButtons {
+    padding: 2em 0;
+}
+
+.buttonSelected {
+    color: var(--white);
+    background-color: var(--purple)
+}
